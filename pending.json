@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T12:00:00Z",
-  "pending": [
+  "updated_at": "2026-11-24T12:06:42.842Z",
+  "pending": [],
+  "installed": [
     {
       "id": "anthropics-claude-plugins-official-frontend-design",
       "name": "Frontend Design",
@@ -14,9 +15,9 @@
       "install": [
         "/plugin install frontend-design@claude-plugins-official"
       ],
-      "vetting": "Maintained by Anthropic in the official marketplace (anthropics/claude-plugins-official, ~45K stars); skill only, no MCP or hooks"
+      "vetting": "Maintained by Anthropic in the official marketplace (anthropics/claude-plugins-official, ~45K stars); skill only, no MCP or hooks",
+      "installed_at": "2026-11-24T12:06:42.842Z"
     }
   ],
-  "installed": [],
   "dismissed": []
 }

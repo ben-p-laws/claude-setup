@@ -1,0 +1,6 @@
+{
+  "name": "setup-queue",
+  "version": "0.1.0",
+  "description": "On startup, pulls ben-p-laws/claude-setup and offers to install anything in pending.json",
+  "types": "./types/index.d.ts"
+}

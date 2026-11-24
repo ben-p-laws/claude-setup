@@ -41,3 +41,16 @@ Each item:
 - The scout only ever **adds** to `pending`. It never installs anything.
 - The PC side moves items from `pending` to `installed` (or `dismissed`) and commits.
 - Skills saved from the phone's skill cards are already on Ben's account and don't go in here.
+
+## The setup-queue plugin
+
+`plugins/setup-queue` is the PC side: on each Claude Code start it pulls this repo, and if `pending` isn't empty it opens a **Setup queue** panel with Install / Dismiss per item and Install all. Install runs the item's `install` lines through the session's Bash tool (`/plugin …` and `/mcp …` become `claude plugin …` / `claude mcp …`), then moves it to `installed`; Dismiss moves it to `dismissed`. Each change is committed and pushed. `/setup-queue` re-checks on demand; step output is logged to `~/.claude/setup-queue.log`.
+
+Install once per machine, from a shell:
+
+```bash
+claude plugin marketplace add ben-p-laws/claude-setup
+claude plugin install setup-queue@claude-setup
+```
+
+The plugin expects this repo cloned at `~/claude-setup` (it clones it there if missing) with push access over HTTPS.

@@ -1,0 +1,11 @@
+{
+  "name": "claude-setup",
+  "owner": { "name": "ben-p-laws" },
+  "plugins": [
+    {
+      "name": "setup-queue",
+      "source": "./plugins/setup-queue",
+      "description": "On startup, pulls claude-setup and offers to install anything in pending.json"
+    }
+  ]
+}

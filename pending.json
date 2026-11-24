@@ -1,7 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T00:00:00Z",
-  "pending": [],
+  "updated_at": "2026-11-24T12:00:00Z",
+  "pending": [
+    {
+      "id": "anthropics-claude-plugins-official-frontend-design",
+      "name": "Frontend Design",
+      "type": "plugin",
+      "category": "design",
+      "summary": "Skill for distinctive, production-grade UI that avoids generic AI-looking design",
+      "why": "Most-installed design skill in the official marketplace; lifts any page or app Claude builds",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design",
+      "approved_at": "2026-11-24T12:00:00Z",
+      "install": [
+        "/plugin install frontend-design@claude-plugins-official"
+      ],
+      "vetting": "Maintained by Anthropic in the official marketplace (anthropics/claude-plugins-official, ~45K stars); skill only, no MCP or hooks"
+    }
+  ],
   "installed": [],
   "dismissed": []
 }

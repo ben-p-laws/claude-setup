@@ -1,7 +1,69 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T12:06:42.842Z",
-  "pending": [],
+  "updated_at": "2026-11-25T10:28:55Z",
+  "pending": [
+    {
+      "id": "hardikpandya-stop-slop",
+      "name": "Stop Slop",
+      "type": "skill",
+      "category": "generic",
+      "summary": "Strips AI writing patterns out of prose and scores drafts",
+      "why": "Enforces Ben's writing rules: no em dashes, no filler, no AI tells",
+      "source_url": "https://github.com/hardikpandya/stop-slop",
+      "install": [
+        "git clone --depth 1 https://github.com/hardikpandya/stop-slop.git ~/.claude/skills/stop-slop"
+      ],
+      "vetting": "hardikpandya, ~19.1k stars, MIT. SKILL.md plus 3 markdown reference docs, no scripts",
+      "approved_at": "2026-11-25T10:28:55Z"
+    },
+    {
+      "id": "greensock-gsap-skills",
+      "name": "GSAP Skills (official)",
+      "type": "plugin",
+      "category": "design",
+      "summary": "8 GreenSock skills: timelines, ScrollTrigger, SplitText/Flip, React useGSAP, performance",
+      "why": "Stops jank animation on TopBins and CricIQ",
+      "source_url": "https://github.com/greensock/gsap-skills",
+      "install": [
+        "/plugin marketplace add greensock/gsap-skills",
+        "/plugin install gsap-skills@gsap-skills"
+      ],
+      "vetting": "Official GreenSock repo, ~17k stars, MIT, skills only",
+      "approved_at": "2026-11-25T10:28:55Z"
+    },
+    {
+      "id": "gamedev-skills-disciplines-genres",
+      "name": "Gamedev: disciplines + genres",
+      "type": "plugin",
+      "category": "gaming",
+      "summary": "Game feel and juice, audio, game UI/UX, plus puzzle skill with solvers, undo and unique-solution checks",
+      "why": "Direct fit for daily puzzles on TopBins and CricIQ",
+      "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+      "install": [
+        "/plugin marketplace add gamedev-skills/awesome-gamedev-agent-skills",
+        "/plugin install disciplines@awesome-gamedev-agent-skills",
+        "/plugin install genres@awesome-gamedev-agent-skills"
+      ],
+      "vetting": "~10.5k stars. Code examples are Godot/Unity; ideas carry over to web",
+      "approved_at": "2026-11-25T10:28:55Z"
+    },
+    {
+      "id": "supabase-agent-skills",
+      "name": "Supabase Agent Skills",
+      "type": "plugin",
+      "category": "other",
+      "summary": "Official Supabase skills: auth, RLS, SSR, migrations, plus 30 Postgres best-practice rules",
+      "why": "Covers the backend behind both sites",
+      "source_url": "https://github.com/supabase/agent-skills",
+      "install": [
+        "/plugin marketplace add supabase/agent-skills",
+        "/plugin install supabase@supabase-agent-skills",
+        "/plugin install postgres-best-practices@supabase-agent-skills"
+      ],
+      "vetting": "Official Supabase repo, ~2.9k stars, clean",
+      "approved_at": "2026-11-25T10:28:55Z"
+    }
+  ],
   "installed": [
     {
       "id": "anthropics-claude-plugins-official-frontend-design",

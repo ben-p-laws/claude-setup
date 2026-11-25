@@ -1,23 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T10:45:55.120Z",
+  "updated_at": "2026-11-25T10:56:37.771Z",
   "pending": [
-    {
-      "id": "gamedev-skills-disciplines-genres",
-      "name": "Gamedev: disciplines + genres",
-      "type": "plugin",
-      "category": "gaming",
-      "summary": "Game feel and juice, audio, game UI/UX, plus puzzle skill with solvers, undo and unique-solution checks",
-      "why": "Direct fit for daily puzzles on TopBins and CricIQ",
-      "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
-      "install": [
-        "/plugin marketplace add gamedev-skills/awesome-gamedev-agent-skills",
-        "/plugin install disciplines@awesome-gamedev-agent-skills",
-        "/plugin install genres@awesome-gamedev-agent-skills"
-      ],
-      "vetting": "~10.5k stars. Code examples are Godot/Unity; ideas carry over to web",
-      "approved_at": "2026-11-25T10:28:55Z"
-    },
     {
       "id": "supabase-agent-skills",
       "name": "Supabase Agent Skills",
@@ -81,6 +65,23 @@
       "vetting": "Official GreenSock repo, ~17k stars, MIT, skills only",
       "approved_at": "2026-11-25T10:28:55Z",
       "installed_at": "2026-11-25T10:45:55.120Z"
+    },
+    {
+      "id": "gamedev-skills-disciplines-genres",
+      "name": "Gamedev: disciplines + genres",
+      "type": "plugin",
+      "category": "gaming",
+      "summary": "Game feel and juice, audio, game UI/UX, plus puzzle skill with solvers, undo and unique-solution checks",
+      "why": "Direct fit for daily puzzles on TopBins and CricIQ",
+      "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+      "install": [
+        "/plugin marketplace add gamedev-skills/awesome-gamedev-agent-skills",
+        "/plugin install disciplines@awesome-gamedev-agent-skills",
+        "/plugin install genres@awesome-gamedev-agent-skills"
+      ],
+      "vetting": "~10.5k stars. Code examples are Godot/Unity; ideas carry over to web",
+      "approved_at": "2026-11-25T10:28:55Z",
+      "installed_at": "2026-11-25T10:56:37.771Z"
     }
   ],
   "dismissed": []

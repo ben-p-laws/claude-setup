@@ -1,22 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T10:45:47.852Z",
+  "updated_at": "2026-11-25T10:45:55.120Z",
   "pending": [
-    {
-      "id": "greensock-gsap-skills",
-      "name": "GSAP Skills (official)",
-      "type": "plugin",
-      "category": "design",
-      "summary": "8 GreenSock skills: timelines, ScrollTrigger, SplitText/Flip, React useGSAP, performance",
-      "why": "Stops jank animation on TopBins and CricIQ",
-      "source_url": "https://github.com/greensock/gsap-skills",
-      "install": [
-        "/plugin marketplace add greensock/gsap-skills",
-        "/plugin install gsap-skills@gsap-skills"
-      ],
-      "vetting": "Official GreenSock repo, ~17k stars, MIT, skills only",
-      "approved_at": "2026-11-25T10:28:55Z"
-    },
     {
       "id": "gamedev-skills-disciplines-genres",
       "name": "Gamedev: disciplines + genres",
@@ -80,6 +65,22 @@
       "vetting": "hardikpandya, ~19.1k stars, MIT. SKILL.md plus 3 markdown reference docs, no scripts",
       "approved_at": "2026-11-25T10:28:55Z",
       "installed_at": "2026-11-25T10:45:47.852Z"
+    },
+    {
+      "id": "greensock-gsap-skills",
+      "name": "GSAP Skills (official)",
+      "type": "plugin",
+      "category": "design",
+      "summary": "8 GreenSock skills: timelines, ScrollTrigger, SplitText/Flip, React useGSAP, performance",
+      "why": "Stops jank animation on TopBins and CricIQ",
+      "source_url": "https://github.com/greensock/gsap-skills",
+      "install": [
+        "/plugin marketplace add greensock/gsap-skills",
+        "/plugin install gsap-skills@gsap-skills"
+      ],
+      "vetting": "Official GreenSock repo, ~17k stars, MIT, skills only",
+      "approved_at": "2026-11-25T10:28:55Z",
+      "installed_at": "2026-11-25T10:45:55.120Z"
     }
   ],
   "dismissed": []

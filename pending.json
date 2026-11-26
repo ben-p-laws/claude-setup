@@ -1,22 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T22:04:31.470Z",
+  "updated_at": "2026-11-26T22:04:41.686Z",
   "pending": [
-    {
-      "id": "vercel-vercel-plugin",
-      "name": "Vercel plugin",
-      "type": "plugin",
-      "category": "other",
-      "summary": "Vercel's own skills (Next.js, caching, functions, env vars, deployments) plus the Vercel MCP.",
-      "why": "Both sites deploy on Vercel: build logs, env vars and Next.js perf rules from inside Claude Code.",
-      "source_url": "https://github.com/vercel/vercel-plugin",
-      "approved_at": "2026-11-25T20:23:30.251Z",
-      "install": [
-        "/plugin marketplace add anthropics/claude-plugins-official",
-        "/plugin install vercel@claude-plugins-official"
-      ],
-      "vetting": "Vercel Inc, updated 24 Nov, official marketplace. Telemetry on by default; turn off with VERCEL_PLUGIN_TELEMETRY=off. MCP uses Vercel OAuth."
-    },
     {
       "id": "microsoft-playwright-mcp",
       "name": "Playwright MCP",
@@ -175,6 +160,22 @@
       ],
       "vetting": "Jesse Vincent (obra), MIT, updated 3 Nov, official marketplace. SessionStart hook injects a pushy 'always use skills' prompt: can feel heavy for quick jobs.",
       "installed_at": "2026-11-26T22:04:31.470Z"
+    },
+    {
+      "id": "vercel-vercel-plugin",
+      "name": "Vercel plugin",
+      "type": "plugin",
+      "category": "other",
+      "summary": "Vercel's own skills (Next.js, caching, functions, env vars, deployments) plus the Vercel MCP.",
+      "why": "Both sites deploy on Vercel: build logs, env vars and Next.js perf rules from inside Claude Code.",
+      "source_url": "https://github.com/vercel/vercel-plugin",
+      "approved_at": "2026-11-25T20:23:30.251Z",
+      "install": [
+        "/plugin marketplace add anthropics/claude-plugins-official",
+        "/plugin install vercel@claude-plugins-official"
+      ],
+      "vetting": "Vercel Inc, updated 24 Nov, official marketplace. Telemetry on by default; turn off with VERCEL_PLUGIN_TELEMETRY=off. MCP uses Vercel OAuth.",
+      "installed_at": "2026-11-26T22:04:41.686Z"
     }
   ],
   "dismissed": []

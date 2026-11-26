@@ -1,22 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T20:09:44.000Z",
+  "updated_at": "2026-11-26T22:04:23.388Z",
   "pending": [
-    {
-      "id": "heygen-hyperframes",
-      "name": "HyperFrames",
-      "type": "plugin",
-      "category": "design",
-      "summary": "Write HTML + GSAP, render it to MP4. Storyboards, captions, TikTok/Reels safe-zone checks.",
-      "why": "Turn TopBins/CricIQ quiz moments into vertical clips for TikTok and X with your web stack, no video editor.",
-      "source_url": "https://github.com/heygen-com/hyperframes",
-      "approved_at": "2026-11-25T20:23:26.180Z",
-      "install": [
-        "/plugin marketplace add anthropics/claude-plugins-official",
-        "/plugin install hyperframes@claude-plugins-official"
-      ],
-      "vetting": "HeyGen, Apache-2.0, updated 25 Nov, in Anthropic's official marketplace (pinned commit). Runs its CLI via npx. Optional media skill asks for TTS/stock API keys: skip those if you don't want them."
-    },
     {
       "id": "obra-superpowers",
       "name": "Superpowers",
@@ -173,6 +158,22 @@
       "vetting": "Official Supabase repo, ~2.9k stars, clean",
       "approved_at": "2026-11-25T10:28:55Z",
       "installed_at": "2026-11-25T12:21:40.689Z"
+    },
+    {
+      "id": "heygen-hyperframes",
+      "name": "HyperFrames",
+      "type": "plugin",
+      "category": "design",
+      "summary": "Write HTML + GSAP, render it to MP4. Storyboards, captions, TikTok/Reels safe-zone checks.",
+      "why": "Turn TopBins/CricIQ quiz moments into vertical clips for TikTok and X with your web stack, no video editor.",
+      "source_url": "https://github.com/heygen-com/hyperframes",
+      "approved_at": "2026-11-25T20:23:26.180Z",
+      "install": [
+        "/plugin marketplace add anthropics/claude-plugins-official",
+        "/plugin install hyperframes@claude-plugins-official"
+      ],
+      "vetting": "HeyGen, Apache-2.0, updated 25 Nov, in Anthropic's official marketplace (pinned commit). Runs its CLI via npx. Optional media skill asks for TTS/stock API keys: skip those if you don't want them.",
+      "installed_at": "2026-11-26T22:04:23.388Z"
     }
   ],
   "dismissed": []

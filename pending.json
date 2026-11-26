@@ -1,22 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T22:04:23.388Z",
+  "updated_at": "2026-11-26T22:04:31.470Z",
   "pending": [
-    {
-      "id": "obra-superpowers",
-      "name": "Superpowers",
-      "type": "plugin",
-      "category": "generic",
-      "summary": "Brainstorm, plan, TDD, systematic debugging and subagent-driven dev as enforced skills.",
-      "why": "Adds structure to longer Claude Code sessions on your side projects instead of one-shot vibe coding.",
-      "source_url": "https://github.com/obra/superpowers",
-      "approved_at": "2026-11-25T20:23:28.543Z",
-      "install": [
-        "/plugin marketplace add anthropics/claude-plugins-official",
-        "/plugin install superpowers@claude-plugins-official"
-      ],
-      "vetting": "Jesse Vincent (obra), MIT, updated 3 Nov, official marketplace. SessionStart hook injects a pushy 'always use skills' prompt: can feel heavy for quick jobs."
-    },
     {
       "id": "vercel-vercel-plugin",
       "name": "Vercel plugin",
@@ -174,6 +159,22 @@
       ],
       "vetting": "HeyGen, Apache-2.0, updated 25 Nov, in Anthropic's official marketplace (pinned commit). Runs its CLI via npx. Optional media skill asks for TTS/stock API keys: skip those if you don't want them.",
       "installed_at": "2026-11-26T22:04:23.388Z"
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "Superpowers",
+      "type": "plugin",
+      "category": "generic",
+      "summary": "Brainstorm, plan, TDD, systematic debugging and subagent-driven dev as enforced skills.",
+      "why": "Adds structure to longer Claude Code sessions on your side projects instead of one-shot vibe coding.",
+      "source_url": "https://github.com/obra/superpowers",
+      "approved_at": "2026-11-25T20:23:28.543Z",
+      "install": [
+        "/plugin marketplace add anthropics/claude-plugins-official",
+        "/plugin install superpowers@claude-plugins-official"
+      ],
+      "vetting": "Jesse Vincent (obra), MIT, updated 3 Nov, official marketplace. SessionStart hook injects a pushy 'always use skills' prompt: can feel heavy for quick jobs.",
+      "installed_at": "2026-11-26T22:04:31.470Z"
     }
   ],
   "dismissed": []

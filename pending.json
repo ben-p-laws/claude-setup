@@ -1,23 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T22:04:57.454Z",
-  "pending": [
-    {
-      "id": "duckdb-duckdb-skills",
-      "name": "DuckDB skills",
-      "type": "plugin",
-      "category": "other",
-      "summary": "Query any CSV/Parquet/Excel/JSON file with SQL, attach DuckDB databases, search DuckDB docs.",
-      "why": "Fast SQL over loose data files for quick data-quality checks and game stats without spinning up a DB.",
-      "source_url": "https://github.com/duckdb/duckdb-skills",
-      "approved_at": "2026-11-25T20:23:42.783Z",
-      "install": [
-        "/plugin marketplace add anthropics/claude-plugins-official",
-        "/plugin install duckdb-skills@claude-plugins-official"
-      ],
-      "vetting": "DuckDB Foundation, MIT, v0.2.5, updated 17 Nov, official marketplace. Needs the DuckDB CLI; install skill asks before upgrading."
-    }
-  ],
+  "updated_at": "2026-11-26T22:05:05.682Z",
+  "pending": [],
   "installed": [
     {
       "id": "anthropics-claude-plugins-official-frontend-design",
@@ -178,6 +162,22 @@
       ],
       "vetting": "Google Chrome, Apache-2.0, updated 23 Nov, official marketplace. Skill calls npx modern-web-guidance@latest for every lookup, and its description pushes to run first on all frontend work.",
       "installed_at": "2026-11-26T22:04:57.454Z"
+    },
+    {
+      "id": "duckdb-duckdb-skills",
+      "name": "DuckDB skills",
+      "type": "plugin",
+      "category": "other",
+      "summary": "Query any CSV/Parquet/Excel/JSON file with SQL, attach DuckDB databases, search DuckDB docs.",
+      "why": "Fast SQL over loose data files for quick data-quality checks and game stats without spinning up a DB.",
+      "source_url": "https://github.com/duckdb/duckdb-skills",
+      "approved_at": "2026-11-25T20:23:42.783Z",
+      "install": [
+        "/plugin marketplace add anthropics/claude-plugins-official",
+        "/plugin install duckdb-skills@claude-plugins-official"
+      ],
+      "vetting": "DuckDB Foundation, MIT, v0.2.5, updated 17 Nov, official marketplace. Needs the DuckDB CLI; install skill asks before upgrading.",
+      "installed_at": "2026-11-26T22:05:05.682Z"
     }
   ],
   "dismissed": []

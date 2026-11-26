@@ -1,22 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T22:04:41.686Z",
+  "updated_at": "2026-11-26T22:04:48.386Z",
   "pending": [
-    {
-      "id": "microsoft-playwright-mcp",
-      "name": "Playwright MCP",
-      "type": "plugin",
-      "category": "gaming",
-      "summary": "Lets Claude drive a real browser: click through flows, screenshot, test.",
-      "why": "Have Claude play through a quiz round on mobile viewport and screenshot what breaks before you ship.",
-      "source_url": "https://github.com/microsoft/playwright-mcp",
-      "approved_at": "2026-11-25T20:23:36.845Z",
-      "install": [
-        "/plugin marketplace add anthropics/claude-plugins-official",
-        "/plugin install playwright@claude-plugins-official"
-      ],
-      "vetting": "Microsoft's @playwright/mcp, packaged in Anthropic's official marketplace. Runs npx @playwright/mcp@latest. Local only, no keys."
-    },
     {
       "id": "googlechrome-modern-web-guidance",
       "name": "Modern Web Guidance",
@@ -176,6 +161,22 @@
       ],
       "vetting": "Vercel Inc, updated 24 Nov, official marketplace. Telemetry on by default; turn off with VERCEL_PLUGIN_TELEMETRY=off. MCP uses Vercel OAuth.",
       "installed_at": "2026-11-26T22:04:41.686Z"
+    },
+    {
+      "id": "microsoft-playwright-mcp",
+      "name": "Playwright MCP",
+      "type": "plugin",
+      "category": "gaming",
+      "summary": "Lets Claude drive a real browser: click through flows, screenshot, test.",
+      "why": "Have Claude play through a quiz round on mobile viewport and screenshot what breaks before you ship.",
+      "source_url": "https://github.com/microsoft/playwright-mcp",
+      "approved_at": "2026-11-25T20:23:36.845Z",
+      "install": [
+        "/plugin marketplace add anthropics/claude-plugins-official",
+        "/plugin install playwright@claude-plugins-official"
+      ],
+      "vetting": "Microsoft's @playwright/mcp, packaged in Anthropic's official marketplace. Runs npx @playwright/mcp@latest. Local only, no keys.",
+      "installed_at": "2026-11-26T22:04:48.386Z"
     }
   ],
   "dismissed": []

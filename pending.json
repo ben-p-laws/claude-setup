@@ -1,22 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T22:04:48.386Z",
+  "updated_at": "2026-11-26T22:04:57.454Z",
   "pending": [
-    {
-      "id": "googlechrome-modern-web-guidance",
-      "name": "Modern Web Guidance",
-      "type": "plugin",
-      "category": "gaming",
-      "summary": "Chrome team's current best practice for view transitions, scroll animation, Core Web Vitals, dialogs, PWA bits.",
-      "why": "Stops Claude using stale CSS/JS patterns on game UI and keeps INP/LCP in check on the quiz pages.",
-      "source_url": "https://github.com/GoogleChrome/modern-web-guidance",
-      "approved_at": "2026-11-25T20:23:41.373Z",
-      "install": [
-        "/plugin marketplace add anthropics/claude-plugins-official",
-        "/plugin install modern-web-guidance@claude-plugins-official"
-      ],
-      "vetting": "Google Chrome, Apache-2.0, updated 23 Nov, official marketplace. Skill calls npx modern-web-guidance@latest for every lookup, and its description pushes to run first on all frontend work."
-    },
     {
       "id": "duckdb-duckdb-skills",
       "name": "DuckDB skills",
@@ -177,6 +162,22 @@
       ],
       "vetting": "Microsoft's @playwright/mcp, packaged in Anthropic's official marketplace. Runs npx @playwright/mcp@latest. Local only, no keys.",
       "installed_at": "2026-11-26T22:04:48.386Z"
+    },
+    {
+      "id": "googlechrome-modern-web-guidance",
+      "name": "Modern Web Guidance",
+      "type": "plugin",
+      "category": "gaming",
+      "summary": "Chrome team's current best practice for view transitions, scroll animation, Core Web Vitals, dialogs, PWA bits.",
+      "why": "Stops Claude using stale CSS/JS patterns on game UI and keeps INP/LCP in check on the quiz pages.",
+      "source_url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "approved_at": "2026-11-25T20:23:41.373Z",
+      "install": [
+        "/plugin marketplace add anthropics/claude-plugins-official",
+        "/plugin install modern-web-guidance@claude-plugins-official"
+      ],
+      "vetting": "Google Chrome, Apache-2.0, updated 23 Nov, official marketplace. Skill calls npx modern-web-guidance@latest for every lookup, and its description pushes to run first on all frontend work.",
+      "installed_at": "2026-11-26T22:04:57.454Z"
     }
   ],
   "dismissed": []
